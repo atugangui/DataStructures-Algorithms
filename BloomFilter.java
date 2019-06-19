@@ -1,3 +1,10 @@
+/** 
+*
+*
+Implement a bloom filter to filter out bad domains
+*
+*
+*/
 public class BloomFilter<T> {
     private static int mask = (1 << 16) - 1; // accessible everywhere
     private long[] filter; // tracks presence of domains
